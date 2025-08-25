@@ -1,0 +1,280 @@
+<!DOCTYPE html>
+
+<html>
+
+<head>
+
+<meta charset="UTF-8">
+
+<meta name="viewport" content="width=device-width, initial-scale=1.0"> 
+
+<title>crochet by mishka</title>
+
+
+</head>
+
+<style>
+
+  @font-face {
+  font-family: 'SugarFruit';
+  src: url(Sugar Fruit.otf) format(opentype);
+  }
+  body {
+    font-family: 'SugarFruit', system-ui;  
+	}
+  h1 {    
+    font-family: 'SugarFruit', system-ui;  
+	}
+  h2 {    
+    font-family: 'SugarFruit', system-ui;
+    }
+  h3 {    
+    font-family: 'SugarFruit', system-ui;  
+	}
+  .gallery-container {
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: space-between;
+    gap: 2vw;
+  }
+
+  .gallery-item {
+    width: 30vw;
+    position: relative;
+  
+  }
+  .gallery-item img {
+    width: 100%;
+    height: auto;
+    border-radius: 10px;
+    transition: transform 0.5s ease;
+  }
+
+  .caption{
+    position: absolute;
+    bottom: 15px;
+    left: 50%;
+    transform: translateX(-50%);
+    background: rgba(255, 219, 237, 0.6);
+    padding: 5px 10px;
+    border-radius: 8px;
+    font-size: 20px;
+    font-family: patrick-hand;
+    color: #000000;
+    opacity: 0;
+    transition: opacity 0.5s ease;
+  }
+  
+  .gallery-item:hover .caption {
+    opacity: 1;
+  }
+
+  .gallery-item:hover img {
+    transform: scale(1.05);
+  }
+</style>
+
+
+
+
+<body style="background-color: #ffdbed;">
+
+<center><img src="logo.webp" width="150" height="150"  alt="crochet by mishka" style="border-radius: 50%;"></center>
+
+
+<h1 style="text-align:center; font-family:'SugarFruit', system-ui;">crochet by <span style="text-align:center;color:#eb3489;">mishka </span>
+</h1>
+
+
+
+<header style="text-align:center;padding:15px;">
+<nav>
+
+<a href="index.html" style="margin:0 15px;text-decoration:none;color:#eb3489;font-size:15px;display:inline;">home</a>
+
+<!-- <a href="contactme.html" style="margin:0 15px;text-decoration:none;color:#eb3489;font-size:15px;display:inline;">contact me</a> -->
+
+<a href="collections.html" style="margin:0 15px;text-decoration:none;color:#eb3489;font-size:15px;display:inline;">shop collections </a>
+
+<a href="gallery.html" style="margin:0 15px;text-decoration:none;color:#eb3489;font-size:15px;display:inline;">my gallery</a>
+
+
+</nav>
+</header>
+
+
+
+<h2 style="text-align:center; ">welcome to my online shop of crochet toys</h2>
+
+<h2 style="text-align:center;margin-bottom: 5px;"> about me! </h2>
+
+<div style="text-align:center;margin-top: 0px;">hello my name is mishka! i'm a teen small business owner located in south oxhey, hertfordshire. i started crocheting 2 years ago and quickly fell in love with it! what started as a small hobby grew into me trying to start a small business. each and every item i create is made with careful attention and love. if you'd like to check out the journey of my work, please check out my instagram
+
+
+<a href="https://www.instagram.com/crochetbymishka?igsh=MTkwdzR4amh1Zzl3eQ==" style="text-decoration:none;color:#eb3489;"> here </a> 
+
+ or my tiktok
+
+<a href="https://www.tiktok.com/@crochetby.mishka" style="text-decoration:none;color:#eb3489;"> here! </a> 
+</div>
+
+
+
+<h2 style="text-align:center;margin-bottom: 5px;">favourites</h2>
+
+<div class = "gallery-container">
+
+<div class = "gallery-item">
+<img src="dino.webp"  alt="crochet dino">
+<p class="caption">chubby dino</p>
+</div>
+
+<div class = "gallery-item">
+<img src="elephant.webp"  alt="crochet elephant">
+<p class="caption">elephant</p>
+</div>
+
+<div class = "gallery-item">
+<img src="big_chick.webp"  alt="crochet chick">
+<p class="caption">chick</p>
+</div>
+
+
+
+</div>
+
+<!--	<h4 style="text-align:center;margin-bottom: 5px;"> gallery </h4>
+
+
+
+<div class = "gallery-container">
+
+  <div class = "gallery-item">
+    <img src="duck.webp"  alt="crochet duck">
+    <p class="caption">duckling with a hat £7</p>
+  </div>
+
+
+  <div class = "gallery-item">
+    <img src="axolotl.webp"  alt="crochet axolotl">
+        <p class="caption">axolotl £15</p>
+  </div>
+
+
+  <div class = "gallery-item">
+    <img src="chick.webp"   alt="crochet chick">
+    <p class="caption">baby chick £3</p>
+  </div>
+
+
+  <div class = "gallery-item">
+    <img src="dino.webp"  alt="crochet dino">
+    <p class="caption">spiky dino £17</p>
+  </div>
+
+
+  <div class = "gallery-item">
+    <img src="bunny_in_sweater.webp"   alt="crochet bunny in sweater">
+    <p class="caption">bunny in a sweater £12</p>
+  </div>
+
+
+  <div class = "gallery-item">
+    <img src="love_bunny.webp" alt="crochet love bunny">
+    <p class="caption">love bunny £12</p>
+  </div>
+
+  <div class = "gallery-item">
+    <img src="bees.webp" alt="crochet bees in a heart">
+    <p class="caption">bee £2</p>
+  </div>
+
+  <div class = "gallery-item">
+    <img src="small_dino.webp" alt="crochet small spiky dino">
+    <p class="caption">spiky small dino £7.50</p>
+  </div>
+
+  <div class = "gallery-item">
+    <img src="elephant.webp" alt="crochet elephant">
+    <p class="caption">elephant £12</p>
+  </div>
+
+  <div class = "gallery-item">
+    <img src="big_chick.webp" alt="crochet chick">
+    <p class="caption">chick £12</p>
+  </div>
+
+  <div class = "gallery-item">
+    <img src="star_moon.webp" alt="crochet star and moon">
+    <p class="caption">star and moon £12</p>
+  </div>
+
+
+
+
+
+
+</div>	-->
+
+<!-- <h4 style="text-align:center;margin-bottom:5px;">where i get my stuff</h4>
+
+<div style="text-align:center;margin-top:0px;">wool:
+<a href="https://hobbii.co.uk/baby-snuggle-solid">baby snuggle, </a>
+<a href="https://hobbii.co.uk/honey-bunny">honey bunny</a>
+</div>
+
+<div style="text-align:center;margin-top:0px;">hooks:
+<a href="https://hobbii.co.uk/crochet-hook-soft-touch">soft touch hooks (4mm, 4.5mm, 5mm, 5.5mm, 6mm)</a>
+</div>
+
+<div style="text-align:center;margin-top:0px;">eyes:
+<a href="https://www.amazon.co.uk/dp/B0BBRJDQLZ?ref=nb_sb_ss_w_as-reorder_k0_1_8&amp=&crid=27ZT5NHEA929X&sprefix=mucunnia&th=1">amazon (6, 8, 10, 12mm) </a>
+</div>
+
+
+<div style="text-align:center;margin-top:0px;">stuffing:
+<a href="https://www.amazon.co.uk/Polyester-Cushion-Pillows-Stuffing-Filling/dp/B004S2D3ZA?pd_rd_w=dOtNn&content-id=amzn1.sym.6e9e96c8-a97e-4c24-8351-ac265d0ac7d3&pf_rd_p=6e9e96c8-a97e-4c24-8351-ac265d0ac7d3&pf_rd_r=T7G3Y5WEEMP7YPCEE91X&pd_rd_wg=JBSMp&pd_rd_r=5dcc384c-cc55-46d0-89a1-3760cec4307d&pd_rd_i=B004S2D3ZA&ref_=pd_basp_d_rpt_ba_s_4_t&th=1">hannah 1kg polyester filling amazon</a>
+</div> -->
+
+
+
+
+
+
+<!--	<h4 style="text-align:center;margin-bottom: 5px;"> contact me </h4>
+
+<div style="text-align:center;margin-top: 0px;"> 
+
+my email: mishka.kiranrawal@gmail.com
+
+<br>
+
+instagram: @crochetbymishka
+
+</div>
+
+
+<form action="/submit-form" method="post">
+<label for="name">name</label>
+<input type="text" id="name" name="name" required>
+
+<label for="email">email</label>
+<input type="email" id="email" name="email" required>
+
+<label for="phone">phone number (optional)</label>
+<input type="tel" id="phone" name="phone" pattern="[0-9]{11}" placeholder="07123456789">
+
+<label for="msg">send me a message!</label>
+<textarea id="msg" name="msg" required></textarea>
+
+<button type="submit">send</button>	-->
+
+
+
+ 
+
+</body>
+
+ 
+
+</html> 

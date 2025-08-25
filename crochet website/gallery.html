@@ -1,0 +1,244 @@
+<!DOCTYPE html>
+
+<html>
+
+<head>
+
+<meta charset="UTF-8">
+
+<title>gallery</title>
+
+
+</head>
+
+
+
+<style>
+
+  @font-face {
+  font-family: 'SugarFruit';
+  src: url("Sugar Fruit.otf") format(opentype);
+  }
+  body {
+    font-family: 'SugarFruit', system-ui;  
+	}
+  h1 {    
+    font-family: 'SugarFruit', system-ui;  
+	}
+  h2 {    
+    font-family: 'SugarFruit', system-ui;
+    }
+  h3 {    
+    font-family: 'SugarFruit', system-ui;  
+	}
+
+  .gallery-container {
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: space-between;
+    gap: 2vw;
+  }
+
+  .gallery-item {
+    width: 30vw;
+    position: relative;
+  
+  }
+  .gallery-item img {
+    width: 100%;
+    height: auto;
+    border-radius: 10px;
+    transition: transform 0.5s ease;
+  }
+
+  .caption{
+    position: absolute;
+    bottom: 15px;
+    left: 50%;
+    transform: translateX(-50%);
+    background: rgba(255, 219, 237, 0.6);
+    padding: 5px 10px;
+    border-radius: 8px;
+    font-size: 20px;
+    font-family: 'SugarFruit', system-ui;  
+    color: #000000;
+    opacity: 0;
+    transition: opacity 0.5s ease;
+  }
+  
+  .gallery-item:hover .caption {
+    opacity: 1;
+  }
+
+  .gallery-item:hover img {
+    transform: scale(1.05);
+  }
+</style>
+
+
+
+
+
+
+
+<body style="background-color: #ffdbed;">
+
+<center><img src="logo.webp" width="150" height="150"  alt="crochet by mishka" style="border-radius: 50%;"></center>
+
+<h1 style="text-align:center;font-family:'SugarFruit', system-ui;">crochet by <span style="text-align:center;color:#eb3489;">mishka </span>
+</h1>
+
+
+<header style="text-align:center;padding:15px;">
+<nav>
+
+<a href="index.html" style="margin:0 15px;text-decoration:none;color:#eb3489;font-size:15px;display:inline;">home</a>
+
+<!-- <a href="contactme.html" style="margin:0 15px;text-decoration:none;color:#eb3489;font-size:15px;display:inline;">contact me</a> -->
+
+<a href="collections.html" style="margin:0 15px;text-decoration:none;color:#eb3489;font-size:15px;display:inline;">shop collections</a>
+
+<a href="gallery.html" style="margin:0 15px;text-decoration:none;color:#eb3489;font-size:15px;display:inline;">my gallery</a>
+
+</nav>
+</header>
+
+
+<h1 style="text-align:center;margin-bottom: 25px;">my gallery </h1>
+
+
+
+<div class = "gallery-container">
+
+
+  <div class = "gallery-item">
+    <img src="axolotl.webp" alt="axolotl ">
+    <p class="caption">multicolour axolotl, £15</p>
+  </div>
+
+  <div class = "gallery-item">
+    <img src="axolotl_upright.webp" alt="axolotl">
+    <p class="caption">axolotl, £7</p>
+  </div>
+
+  <div class = "gallery-item">
+    <img src="blue_axolotl.webp" alt="blue axolotl">
+    <p class="caption">blue axolotl, £15</p>
+  </div>
+
+  <div class = "gallery-item">
+    <img src="pinkpurple_axolotl.webp" alt="pink and purple axolotl">
+    <p class="caption">pink and purple axolotl, £15</p>
+  </div>
+
+  <div class = "gallery-item">
+    <img src="purple_axolotl.webp" alt="purple axolotl">
+    <p class="caption">axolotl, £15</p>
+  </div>
+
+  <div class = "gallery-item">
+    <img src="bunny.webp" alt="bunny">
+    <p class="caption">bunny, £10</p>
+  </div>
+
+  <div class = "gallery-item">
+    <img src="bunny_in_onesie.webp" alt="bunny in onesie">
+    <p class="caption">bunny in onesie, £14</p>
+  </div>
+
+  <div class = "gallery-item">
+    <img src="bunny_in_overall.webp" alt="bunny in overalls">
+    <p class="caption">bunny in overalls, £13</p>
+  </div>
+
+  <div class = "gallery-item">
+    <img src="bunny_in_overall_and_hat.webp" alt="bunny in overalls and hat">
+    <p class="caption">bunny in overalls and hat, £15</p>
+  </div>
+
+  <div class = "gallery-item">
+    <img src="bunny_in_sweater.webp" alt="bunny in sweater">
+    <p class="caption">bunny in a sweater, £12</p>
+  </div>
+
+  <div class = "gallery-item">
+    <img src="love_bunny.webp" alt="love bunny">
+    <p class="caption">love bunny with heart, £11</p>
+  </div>
+
+  <div class = "gallery-item">
+    <img src="watermelon_dino.webp" alt="watermelon dino">
+    <p class="caption">watermelon themed dino, £20</p>
+  </div>
+
+  <div class = "gallery-item">
+    <img src="small_dino.webp" alt="small dino">
+    <p class="caption">small dino, £7</p>
+  </div>
+
+  <div class = "gallery-item">
+    <img src="dino.webp" alt="dino">
+    <p class="caption">dino, £20</p>
+  </div>
+
+  <div class = "gallery-item">
+    <img src="dottypink_dino.webp" alt="dotty pink dino">
+    <p class="caption">dotty pink dino, £20</p>
+  </div>
+
+  <div class = "gallery-item">
+    <img src="trex.webp" alt="trex">
+    <p class="caption">trex, £12</p>
+  </div>
+
+  <div class = "gallery-item">
+    <img src="bees.webp" alt="bees">
+    <p class="caption">bees, £2 each</p>
+  </div>
+
+  <div class = "gallery-item">
+    <img src="big_chick.webp" alt="big chick">
+    <p class="caption">big chick, £7</p>
+  </div>
+
+  <div class = "gallery-item">
+    <img src="chick.webp" alt="chick">
+    <p class="caption">chick, £2</p>
+  </div>
+
+  <div class = "gallery-item">
+    <img src="duck.webp" alt="duck">
+    <p class="caption">duck, £7</p>
+  </div>
+
+  <div class = "gallery-item">
+    <img src="elephant.webp" alt="elephant">
+    <p class="caption">elephant, £10</p>
+  </div>
+
+  <div class = "gallery-item">
+    <img src="mallard_duck_big.webp" alt="big mallard duck">
+    <p class="caption">mallard duck, £12</p>
+  </div>
+
+  <div class = "gallery-item">
+    <img src="pinkpeach_turtle.webp" alt="pink turtle">
+    <p class="caption">pink turtle, £7 </p>
+  </div>
+
+  <div class = "gallery-item">
+    <img src="squid.webp" alt="squid">
+    <p class="caption">squid, £7</p>
+  </div>
+
+  <div class = "gallery-item">
+    <img src="star_moon.webp" alt="star and moon">
+    <p class="caption">star and moon, £12</p>
+  </div>
+
+
+</div>
+
+</body>
+
+</html>

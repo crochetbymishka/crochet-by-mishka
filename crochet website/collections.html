@@ -1,0 +1,126 @@
+<!DOCTYPE html>
+
+<html>
+
+<head>
+
+<meta charset="UTF-8">
+
+<title>collections</title>
+
+
+</head>
+
+<style>
+
+  @font-face {
+  font-family: 'SugarFruit';
+  src: url("Sugar Fruit.otf") format(opentype);
+  }
+  body {
+    font-family: 'SugarFruit', system-ui;  
+	}
+  h1 {    
+    font-family: 'SugarFruit', system-ui;  
+	}
+  h2 {    
+    font-family: 'SugarFruit', system-ui;
+    }
+  h3 {    
+    font-family: 'SugarFruit', system-ui;  
+	}
+
+  .gallery-container {
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: space-between;
+    gap: 2vw;
+  }
+
+  .gallery-item {
+    width: 30vw;
+    position: relative;
+  
+  }
+  .gallery-item img {
+    width: 100%;
+    height: auto;
+    border-radius: 10px;
+    transition: transform 0.5s ease;
+  }
+
+  .caption{
+    position: absolute;
+    bottom: 15px;
+    left: 50%;
+    transform: translateX(-50%);
+    background: rgba(255, 219, 237, 0.6);
+    padding: 5px 10px;
+    border-radius: 8px;
+    font-size: 20px;
+    font-family: 'SugarFruit', system-ui;  
+    color: #000000;
+    opacity: 0;
+    transition: opacity 0.5s ease;
+  }
+  
+  .gallery-item:hover .caption {
+    opacity: 1;
+  }
+
+  .gallery-item:hover img {
+    transform: scale(1.05);
+  }
+</style>
+
+<body style="background-color: #ffdbed;">
+
+<center><img src="logo.webp" width="150" height="150"  alt="crochet by mishka" style="border-radius: 50%;"></center>
+
+<h1 style="text-align:center;font-family:'SugarFruit', system-ui;">crochet by <span style="text-align:center;color:#eb3489;">mishka </span>
+</h1>
+
+
+<header style="text-align:center;padding:15px;">
+<nav>
+
+<a href="index.html" style="margin:0 15px;text-decoration:none;color:#eb3489;font-size:15px;display:inline;">home</a>
+
+<!-- <a href="contactme.html" style="margin:0 15px;text-decoration:none;color:#eb3489;font-size:15px;display:inline;">contact me</a> -->
+
+<a href="collections.html" style="margin:0 15px;text-decoration:none;color:#eb3489;font-size:15px;display:inline;">shop collections</a>
+
+<a href="gallery.html" style="margin:0 15px;text-decoration:none;color:#eb3489;font-size:15px;display:inline;">my gallery</a>
+
+</nav>
+</header>
+
+
+
+<div class = "gallery-container">
+
+  <div class = "gallery-item">
+    <a href="axolotl_collection.html"><img src="axolotl.webp" alt="axolotl collection"></a>
+      <p class="caption"> axolotl collection</p>
+  </div>
+
+
+  <div class = "gallery-item">
+    <a href="bunny_collection.html"><img src="love_bunny.webp" alt="bunny collection"></a>
+
+    <p class="caption">bunny collection</p>
+    
+  </div>
+
+  <div class = "gallery-item">
+    <a href="dino_collection.html"><img src="small_dino.webp" alt="dino collection"></a>
+    <p class="caption">dino collection</p>
+  </div>
+
+
+  <div class = "gallery-item">
+    <a href="extra_collection.html"><img src="star_moon.webp" alt="extra collection"></a>
+    <p class="caption">extra collections</p>
+  </div>
+
+</div>
