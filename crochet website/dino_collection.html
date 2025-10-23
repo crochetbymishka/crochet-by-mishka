@@ -29,14 +29,15 @@
 	}
 
   .gallery-container {
-    display: flex;
-    flex-wrap: wrap;
-    justify-content: space-between;
+    display: grid;
+    grid-template-columns: repeat(3, 1fr);
+    justify-items: center;
     gap: 2vw;
   }
 
   .gallery-item {
-    width: 30vw;
+    width: 100%;
+    max-width: 30vw;
     position: relative;
   
   }
@@ -99,26 +100,36 @@
 
   <div class = "gallery-item">
     <img src="images/watermelon_dino.webp" alt="watermelon dino">
-    <p class="caption">watermelon themed dino, £20</p>
+    <p class="caption">watermelon themed dino in pastel</p>
   </div>
 
   <div class = "gallery-item">
     <img src="images/small_dino.webp" alt="small dino">
-    <p class="caption">small dino, £7</p>
+    <p class="caption">classic green and rainbow dino in small</p>
   </div>
 
   <div class = "gallery-item">
     <img src="images/dino.webp" alt="dino">
-    <p class="caption">dino, £20</p>
+    <p class="caption">watermelon themed dino</p>
   </div>
 
   <div class = "gallery-item">
     <img src="images/dottypink_dino.webp" alt="dotty pink dino">
-    <p class="caption">dotty pink dino, £20</p>
+    <p class="caption">dotty pink dino</p>
   </div>
 
   <div class = "gallery-item">
-    <img src="images/trex.webp" alt="trex">
-    <p class="caption">trex, £12</p>
+    <img src="images/purple_whitedino.webp" alt="purple dino">
+    <p class="caption">purple dino</p>
+  </div>
+
+  <div class = "gallery-item">
+    <img src="images/green_rainbowdino.webp" alt="green dino">
+    <p class="caption">classic green and rainbow dino </p>
+  </div>
+
+  <div class = "gallery-item">
+    <img src="images/lightgreen_rainbowdino.webp" alt="pastel green dino">
+    <p class="caption">classic green and rainbow dino in pastel</p>
   </div>
 </div>

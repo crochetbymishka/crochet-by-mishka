@@ -29,14 +29,15 @@
 	}
 
   .gallery-container {
-    display: flex;
-    flex-wrap: wrap;
-    justify-content: space-between;
+    display: grid;
+    grid-template-columns: repeat(3, 1fr);
+    justify-items: center;
     gap: 2vw;
   }
 
   .gallery-item {
-    width: 30vw;
+    width: 100%;
+    max-width: 30vw;
     position: relative;
   
   }
@@ -97,33 +98,65 @@
 <div class = "gallery-container">
 
 <div class = "gallery-item">
-    <img src="images/bunny.webp" alt="bunny">
-    <p class="caption">bunny, £10</p>
+    <img src="images/plainbunny.webp" alt="bunny">
+    <p class="caption">plain bunny</p>
   </div>
 
   <div class = "gallery-item">
-    <img src="images/bunny_in_onesie.webp" alt="bunny in onesie">
-    <p class="caption">bunny in onesie, £14</p>
+    <img src="images/brownbunny_yellowdress.webp" alt="bunny in yellow dress">
+    <p class="caption">bunny in a yellow dress</p>
   </div>
 
   <div class = "gallery-item">
-    <img src="images/bunny_in_overall.webp" alt="bunny in overalls">
-    <p class="caption">bunny in overalls, £13</p>
+    <img src="images/bunny_carrot.webp" alt="bunny with carrot">
+    <p class="caption">bunny holding a carrot</p>
   </div>
 
   <div class = "gallery-item">
-    <img src="images/bunny_in_overall_and_hat.webp" alt="bunny in overalls and hat">
-    <p class="caption">bunny in overalls and hat, £15</p>
+    <img src="images/beigebunny_pinksweater.webp" alt="bunny in a pink sweater">
+    <p class="caption">beige bunny in a pink sweater</p>
   </div>
 
   <div class = "gallery-item">
-    <img src="images/bunny_in_sweater.webp" alt="bunny in sweater">
-    <p class="caption">bunny in a sweater, £12</p>
+    <img src="images/bunny_heart.webp" alt="bunny with a heart">
+    <p class="caption">bunny holding a heart</p>
   </div>
 
   <div class = "gallery-item">
-    <img src="images/love_bunny.webp" alt="love bunny">
-    <p class="caption">love bunny with heart, £11</p>
+    <img src="images/bunny_limesweater.webp" alt="bunny with a lime sweater">
+    <p class="caption">bunny with a lime sweater</p>
   </div>
+
+  <div class = "gallery-item">
+    <img src="images/bunny_redsweater.webp" alt="bunny with a red sweater">
+    <p class="caption">bunny with a red sweater</p>
+  </div>
+
+  <div class = "gallery-item">
+    <img src="images/creambunny_redsweater.webp" alt="cream bunny with a red sweater">
+    <p class="caption">cream bunny with a red sweater</p>
+  </div>
+
+  <div class = "gallery-item">
+    <img src="images/christmas_creambunny.webp" alt="cream christmas bunny">
+    <p class="caption">christmas bunny in cream</p>
+  </div>
+
+  <div class = "gallery-item">
+    <img src="images/love_bunny.webp" alt="bunny with a heart">
+    <p class="caption">bunny holding a heart</p>
+  </div>
+
+<div class = "gallery-item">
+    <img src="images/witch_bunny.webp" alt="witch bunny">
+    <p class="caption">hallowe'en witch bunny</p>
+  </div>
+
+
+  <div class = "gallery-item">
+    <img src="images/love_bunny2.webp" alt="bunny with a heart">
+    <p class="caption">bunny holding a heart</p>
+  </div>
+
 
 </div>

@@ -31,16 +31,16 @@
 	}
 
   .gallery-container {
-    display: flex;
-    flex-wrap: wrap;
-    justify-content: space-between;
+    display: grid;
+    grid-template-columns: repeat(3, 1fr);
+    justify-items: center;
     gap: 2vw;
   }
 
   .gallery-item {
-    width: 30vw;
+    width: 100%;
+    max-width: 30vw;
     position: relative;
-  
   }
   .gallery-item img {
     width: 100%;
@@ -99,6 +99,18 @@
 
 <div class = "gallery-container">
 
+
+  <div class = "gallery-item">
+    <a href="bunny_collection.html"><img src="images/love_bunny.webp" alt="bunny collection"></a>
+    <p class="caption">bunny collection</p>
+    
+  </div>
+
+  <div class = "gallery-item">
+    <a href="dino_collection.html"><img src="images/lightgreen_rainbowdino.webp" alt="dino collection"></a>
+    <p class="caption">dino collection</p>
+  </div>
+
   <div class = "gallery-item">
     <a href="axolotl_collection.html"><img src="images/axolotl.webp" alt="axolotl collection"></a>
       <p class="caption"> axolotl collection</p>
@@ -106,21 +118,15 @@
 
 
   <div class = "gallery-item">
-    <a href="bunny_collection.html"><img src="images/love_bunny.webp" alt="bunny collection"></a>
-
-    <p class="caption">bunny collection</p>
-    
-  </div>
-
-  <div class = "gallery-item">
-    <a href="dino_collection.html"><img src="images/small_dino.webp" alt="dino collection"></a>
-    <p class="caption">dino collection</p>
-  </div>
-
-
-  <div class = "gallery-item">
     <a href="extra_collection.html"><img src="images/star_moon.webp" alt="extra collection"></a>
     <p class="caption">extra collections</p>
   </div>
+
+<div class = "gallery-item">
+    <a href="seasonal_collection.html"><img src="images/witch_bunny.webp" alt="seasonal collection"></a>
+    <p class="caption">seasonal collection</p>
+    
+  </div>
+
 
 </div>

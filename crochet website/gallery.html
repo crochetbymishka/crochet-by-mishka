@@ -33,14 +33,15 @@
 	}
 
   .gallery-container {
-    display: flex;
-    flex-wrap: wrap;
-    justify-content: space-between;
+    display: grid;
+    grid-template-columns: repeat(3, 1fr);
+    justify-items: center;
     gap: 2vw;
   }
 
   .gallery-item {
-    width: 30vw;
+    width: 100%;
+    max-width: 30vw;
     position: relative;
   
   }
@@ -112,152 +113,137 @@
 <div class = "gallery-container">
 
   <div class = "gallery-item">
-    <img src="images/bunny.webp" alt="bunny">
-    <p class="caption">bunny</p>
+    <img src="images/axolotl.webp" alt="axolotl">
   </div>
 
   <div class = "gallery-item">
-    <img src="images/axolotl.webp" alt="axolotl ">
-    <p class="caption">multicolour axolotl </p>
+    <img src="images/green_rainbowdino.webp" alt="green and rainbow dino">
   </div>
 
   <div class = "gallery-item">
-    <img src="images/axolotl_upright.webp" alt="axolotl">
-    <p class="caption">axolotl</p>
+    <img src="images/creambunny_redsweater.webp" alt="cream bunny wearing a red sweater">
   </div>
 
   <div class = "gallery-item">
-    <img src="images/big_chick.webp" alt="big chick">
-    <p class="caption">big chick</p>
-  </div>
-
-  <div class = "gallery-item">
-    <img src="images/small_dino.webp" alt="small dino">
-    <p class="caption">small dino</p>
-  </div>
-
-  <div class = "gallery-item">
-    <img src="images/blue_axolotl.webp" alt="blue axolotl">
-    <p class="caption">blue axolotl</p>
-  </div>
-
-  <div class = "gallery-item">
-    <img src="images/pinkpurple_axolotl.webp" alt="pink and purple axolotl">
-    <p class="caption">pink and purple axolotl</p>
+    <img src="images/heart.webp" alt="heart with legs">
   </div>
 
   <div class = "gallery-item">
     <img src="images/purple_axolotl.webp" alt="purple axolotl">
-    <p class="caption">axolotl</p>
   </div>
 
   <div class = "gallery-item">
-    <img src="images/elephant.webp" alt="elephant">
-    <p class="caption">elephant</p>
+    <img src="images/love_bunny.webp" alt="bunny holding a heart">
   </div>
 
   <div class = "gallery-item">
-    <img src="images/bunny_in_onesie.webp" alt="bunny in onesie">
-    <p class="caption">bunny in onesie</p>
+    <img src="images/bunny_redsweater.webp" alt="bunny wearing a red sweater">
   </div>
 
   <div class = "gallery-item">
-    <img src="images/pinkpeach_turtle.webp" alt="pink turtle">
-    <p class="caption">pink turtle</p>
+    <img src="images/love_bunny2.webp" alt="bunny holding a heart">
   </div>
 
   <div class = "gallery-item">
-    <img src="images/star_moon.webp" alt="star and moon">
-    <p class="caption">star and moon</p>
+    <img src="images/sun.webp" alt="sun with legs">
   </div>
 
   <div class = "gallery-item">
-    <img src="images/bunny_in_overall.webp" alt="bunny in overalls">
-    <p class="caption">bunny in overalls</p>
+    <img src="images/beigebunny_pinksweater.webp" alt="beige bunny wearing a pink sweater">
   </div>
 
   <div class = "gallery-item">
-    <img src="images/bunny_in_overall_and_hat.webp" alt="bunny in overalls and hat">
-    <p class="caption">bunny in overalls and hat</p>
+    <img src="images/witch_bunny.webp" alt="hallowe'en witch bunny">
   </div>
 
   <div class = "gallery-item">
-    <img src="images/duck.webp" alt="duck">
-    <p class="caption">duck</p>
+    <img src="images/watermelon_dino.webp" alt="watermelon themed dino">
   </div>
 
   <div class = "gallery-item">
-    <img src="images/bunny_in_sweater.webp" alt="bunny in sweater">
-    <p class="caption">bunny in a sweater</p>
+    <img src="images/lightgreen_rainbowdino.webp" alt="classic green and rainbow dino in pastel">
   </div>
 
   <div class = "gallery-item">
-    <img src="images/chick.webp" alt="chick">
-    <p class="caption">chick</p>
+    <img src="images/chick_keychain.webp" alt="chick on a keychain">
   </div>
 
   <div class = "gallery-item">
-    <img src="images/love_bunny.webp" alt="love bunny">
-    <p class="caption">love bunny with heart with bows</p>
+    <img src="images/big_chick.webp" alt="big chick">
   </div>
 
   <div class = "gallery-item">
-    <img src="images/trex.webp" alt="trex">
-    <p class="caption">trex</p>
+    <img src="images/bunny_limesweater.webp" alt="bunny in a lime sweater">
   </div>
 
   <div class = "gallery-item">
-    <img src="images/watermelon_dino.webp" alt="watermelon dino">
-    <p class="caption">watermelon themed dino</p>
+    <img src="images/purple_whitedino.webp" alt="purple dino with white spikes">
   </div>
 
   <div class = "gallery-item">
     <img src="images/bees.webp" alt="bees">
-    <p class="caption">bees</p>
   </div>
 
   <div class = "gallery-item">
-    <img src="images/dino.webp" alt="dino">
-    <p class="caption">dino</p>
+    <img src="images/bunny_carrot.webp" alt="bunny holding a carrot">
   </div>
 
   <div class = "gallery-item">
-    <img src="images/squid.webp" alt="squid">
-    <p class="caption">squid</p>
+    <img src="images/duck_tower.webp" alt="10 chicks in a triangle tower">
+  </div>
+
+  <div class = "gallery-item">
+    <img src="images/christmas_creambunny.webp" alt="christmas bunny in cream">
+  </div>
+
+  <div class = "gallery-item">
+    <img src="images/blue_axolotl.webp" alt="axolotl in blue">
+  </div>
+
+  <div class = "gallery-item">
+    <img src="images/dino.webp" alt="watermelon themed dino">
+  </div>
+
+  <div class = "gallery-item">
+    <img src="images/pinkpurple_axolotl.webp" alt="pink axolotl with purple gills">
+  </div>
+
+  <div class = "gallery-item">
+    <img src="images/elephant.webp" alt="pink sitting elephant">
+  </div>
+
+  <div class = "gallery-item">
+    <img src="images/brownbunny_yellowdress.webp" alt="brown bunny wearing a yellow dress">
+  </div>
+
+  <div class = "gallery-item">
+    <img src="images/star_moon.webp" alt="blue moon and yellow star">
+  </div>
+
+  <div class = "gallery-item">
+    <img src="images/bunny_heart.webp" alt="bunny holding a heart">
+  </div>
+
+  <div class = "gallery-item">
+    <img src="images/bunny_coralsweater.webp" alt="bunny wearing a coral sweater">
   </div>
 
   <div class = "gallery-item">
     <img src="images/dottypink_dino.webp" alt="dotty pink dino">
-    <p class="caption">dotty pink dino</p>
   </div>
 
   <div class = "gallery-item">
-    <img src="images/mallard_duck_big.webp" alt="big mallard duck">
-    <p class="caption">mallard duck</p>
+    <img src="images/chick.webp" alt="chick">
   </div>
 
   <div class = "gallery-item">
-    <img src="images/brownbunny_yellowdress.webp" alt="bunny in a dress">
-    <p class="caption">bunny in a dress</p>
+    <img src="images/small_dino.webp" alt="classic dino in small">
   </div>
 
   <div class = "gallery-item">
-    <img src="images/lightgreen_rainbowdino.webp" alt="pastel multicolour dino">
-    <p class="caption">multicolour dino</p>
+    <img src="images/plainbunny.webp" alt="plain bunny">
   </div>
 
-  <div class = "gallery-item">
-    <img src="images/bunny_heart.webp" alt="love bunny">
-    <p class="caption">love bunny</p>
-  </div>
-
-  <div class = "gallery-item">
-    <img src="images/green_rainbowdino.webp" alt="multicolour dino">
-    <p class="caption">multicolour dino</p>
-
-
-
-  </div>
 
 </div>
 

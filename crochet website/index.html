@@ -17,7 +17,7 @@
 
   @font-face {
   font-family: 'SugarFruit';
-  src: url(Sugar Fruit.otf) format(opentype);
+  src: url("Sugar Fruit.otf") format(opentype);
   }
   body {
     font-family: 'SugarFruit', system-ui;  
@@ -31,15 +31,18 @@
   h3 {    
     font-family: 'SugarFruit', system-ui;  
 	}
+
+
   .gallery-container {
-    display: flex;
-    flex-wrap: wrap;
-    justify-content: space-between;
+    display: grid;
+    grid-template-columns: repeat(3, 1fr);
+    justify-items: center;
     gap: 2vw;
   }
 
   .gallery-item {
-    width: 30vw;
+    width: 100%;
+    max-width: 30vw;
     position: relative;
   
   }
@@ -126,13 +129,13 @@ place an order on my
 
 
 
-<h2 style="text-align:center;margin-bottom: 5px;">favourites</h2>
+<h2 style="text-align:center;margin-bottom: 5px;">new in!</h2>
 
 <div class = "gallery-container">
 
 <div class = "gallery-item">
-<img src="images/dino.webp"  alt="crochet dino">
-<p class="caption">chubby dino</p>
+<img src="images/witch_bunny.webp"  alt="witch bunny">
+<p class="caption">witch bunny</p>
 </div>
 
 <div class = "gallery-item">
@@ -141,8 +144,8 @@ place an order on my
 </div>
 
 <div class = "gallery-item">
-<img src="images/big_chick.webp"  alt="crochet chick">
-<p class="caption">chick</p>
+<img src="images/bunny_carrot.webp"  alt="bunny holding a carrot">
+<p class="caption">bunny with a carrot</p>
 </div>
 
 </div>
@@ -159,6 +162,7 @@ bunny : £15
 <br>sitting axolotl : £20
 <br>chubby dino : £25
 <br>other : contact me on my socials!
+<br> use my <a href="https://forms.gle/ALM6CHgoh3Zp52b46" style="text-decoration:none;color:#eb3489;"> google form </a> to order
 </div>
 
 <h2 style="text-align:center;margin-bottom: 5px;">socials</h2>

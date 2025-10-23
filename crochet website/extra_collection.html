@@ -29,14 +29,15 @@
 	}
 
   .gallery-container {
-    display: flex;
-    flex-wrap: wrap;
-    justify-content: space-between;
+    display: grid;
+    grid-template-columns: repeat(3, 1fr);
+    justify-items: center;
     gap: 2vw;
   }
 
   .gallery-item {
-    width: 30vw;
+    width: 100%;
+    max-width: 30vw;
     position: relative;
   
   }
@@ -97,53 +98,47 @@
 <div class = "gallery-container">
   <div class = "gallery-item">
     <img src="images/bees.webp" alt="bees">
-    <p class="caption">bees, £2 each</p>
+    <p class="caption">bees</p>
   </div>
 
   <div class = "gallery-item">
     <img src="images/big_chick.webp" alt="big chick">
-    <p class="caption">big chick, £7</p>
+    <p class="caption">big chick</p>
   </div>
 
   <div class = "gallery-item">
     <img src="images/chick.webp" alt="chick">
-    <p class="caption">chick, £2</p>
+    <p class="caption">chick</p>
   </div>
 
   <div class = "gallery-item">
-    <img src="images/duck.webp" alt="duck">
-    <p class="caption">duck, £7</p>
+    <img src="images/chick_keychain.webp" alt="chick on a keychain">
+    <p class="caption">chick on a keychain</p>
   </div>
 
   <div class = "gallery-item">
     <img src="images/elephant.webp" alt="elephant">
-    <p class="caption">elephant, £10</p>
+    <p class="caption">elephant</p>
   </div>
 
   <div class = "gallery-item">
-    <img src="images/mallard_duck_big.webp" alt="big mallard duck">
-    <p class="caption">mallard duck, £12</p>
+    <img src="images/duck_tower.webp" alt="tower of ducks">
+    <p class="caption">tower of chicks</p>
   </div>
 
   <div class = "gallery-item">
-    <img src="images/pinkpeach_turtle.webp" alt="pink turtle">
-    <p class="caption">pink turtle, £7 </p>
+    <img src="images/heart.webp" alt="pink heart with legs">
+    <p class="caption">pink heart</p>
   </div>
 
   <div class = "gallery-item">
-    <img src="images/squid.webp" alt="squid">
-    <p class="caption">squid, £7</p>
+    <img src="images/sun.webp" alt="sun">
+    <p class="caption">sun</p>
   </div>
 
   <div class = "gallery-item">
-    <img src="images/star_moon.webp
-
-
-
-
-
-" alt="star and moon">
-    <p class="caption">star and moon, £12</p>
+    <img src="images/star_moon.webp" alt="star and moon">
+    <p class="caption">star and moon</p>
   </div>
 
 
